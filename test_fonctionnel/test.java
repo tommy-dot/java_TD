@@ -5,10 +5,11 @@ import personnage.romain;
 
 public class test {
     public static void main(String[] args) {
-        romain romain = new personnage.romain("Julius", 10);
-        gaulois gaulois = new personnage.gaulois("Vercingetorix", 12);
+        gaulois asterix = new gaulois("Astérix",8);
+        romain minus = new romain("minis",6);
+        System.out.println("Le nom du Gaulois est: " + asterix.getNom());
+        asterix.parler("test");
+        minus.parler("test");
 
-        System.out.println("Le nom du romain est: " + romain.getNom());
-        System.out.println("Le nom du Gaulois est: " + gaulois.getNom());
     }
 }

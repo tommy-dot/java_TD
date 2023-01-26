@@ -12,16 +12,7 @@ public class romain {
     public String getNom() {
         return nom;
     }
-
-    public int getForce() {
-        return force;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public void setForce(int force) {
-        this.force = force;
+    public void parler(String txt){
+        System.out.println("Le romain " + this.nom+": «"+ txt +"».");
     }
 }
