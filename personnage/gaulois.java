@@ -15,12 +15,10 @@ public class gaulois {
     public void parler(String txt){
         System.out.println("Le Gaulois " + this.nom+": «"+ txt +"».");
     }
-    
-    public static void main(String[] args) {
-        gaulois asterix = new personnage.gaulois("Astérix",8);
-
-        System.out.println("Le nom du Gaulois est: " + asterix.getNom());
+    public void Frapper(romain romain) {
+        System.out.println(this.nom+" envoie un grand coup à "+romain.getNom());
+        int force = this.force/3;
+        romain.recevoirCoup(force);
     }
 }
-
 

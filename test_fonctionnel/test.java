@@ -8,8 +8,12 @@ public class test {
         gaulois asterix = new gaulois("Astérix",8);
         romain minus = new romain("minis",6);
         System.out.println("Le nom du Gaulois est: " + asterix.getNom());
-        asterix.parler("test");
-        minus.parler("test");
+        asterix.parler("Bonjour à tous");
+        minus.parler("UN GAU… UN GAUGAU…");
 
+        for (int i = 0; i < 3; i++) {
+            //minus.RecevoirCoup(3);
+            asterix.Frapper(minus);
+        }
     }
 }
