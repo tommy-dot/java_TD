@@ -12,7 +12,6 @@ public class test {
         minus.parler("UN GAU… UN GAUGAU…");
 
         for (int i = 0; i < 3; i++) {
-            //minus.RecevoirCoup(3);
             asterix.Frapper(minus);
         }
     }
